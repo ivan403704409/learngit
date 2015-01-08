@@ -41,6 +41,7 @@ module.exports = function (grunt){
 	});
 
 	//开启任务
+	//单任务可以不注册直接用grunt 任务名调用
 	grunt.registerTask('default', 'copy');
 	grunt.registerTask('cleanJs', 'clean');
 
